@@ -1,11 +1,10 @@
 import streamlit as st
-from matplotlib.font_manager import font_scalings
 
 import preprocessor
 import helper
 import matplotlib.pyplot as plt
 
-from helper import daily_timeline
+
 
 st.sidebar.title("Whatsapp Chat Analyzer")
 
